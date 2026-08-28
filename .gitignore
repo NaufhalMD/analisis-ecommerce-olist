@@ -1,0 +1,21 @@
+# ── Dataset mentah (unduh dari Kaggle, lihat README) ──
+data/*.csv
+data/*.zip
+
+# ── Basis data hasil pemuatan ──
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# ── OS / Editor ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
